@@ -32,3 +32,7 @@ lto = true
 opt-level = 3
 panic = "abort"
 strip = true
+
+[patch.crates-io]
+tauri = { git = "https://github.com/lepsehq/tauri", rev = "265a96900b50a96eecc186bc8ca236d0646e88ec" }             # v3.0.0-alpha.5+lepse
+tauri-runtime-cef = { git = "https://github.com/lepsehq/tauri", rev = "265a96900b50a96eecc186bc8ca236d0646e88ec" } # v3.0.0-alpha.5+lepse
